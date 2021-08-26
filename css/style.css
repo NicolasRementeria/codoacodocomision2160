@@ -71,3 +71,10 @@ span{
     background-color: violet;
     color: black;
 }
+
+div#init{
+    background-color: blueviolet;
+}
+div#init h2{
+    background-color: rgb(255, 0, 200);
+}

@@ -1,14 +1,34 @@
 /* selector{ propiedad:valor; propiedad:valor;} */
+
+html{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.miestilo{
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: "VT323-Regular";
+    src: url("./fonts/VT323/VT323-Regular.ttf");
+}
+
+.miestiloDescargado{
+    font-family: "VT323-Regular";
+}
+
 body{
     background-color: bisque;
 }
 h1{
+    text-align: center;
     background-color: black;
     color: white !important;
 }
 li{
     display:inline;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.685);
     border: 1px solid black;
     padding: 10px;
     color: white;
@@ -29,3 +49,25 @@ li{
     margin-bottom: 50px;
 }
 
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 15px;
+}
+
+#init, #add, #status, #commit, #push, #clone{
+    width: 15%;
+    float: left;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+span{
+    background-color: violet;
+    color: black;
+}

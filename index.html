@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,60 @@
     <title>Clase Git</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>Códigos de Git</h1>
-    <ul>
-        <li>git init</li>
-        <li>git add *</li>
-        <li>git status</li>
-        <li>git commit -m "nuestro commit"</li>
-        <li>git push -u origin master</li>
-        <li>gig clone</li>
-    </ul>
-    <p>Probando otra versión</p>
-    <div id="padre">
-        <div class="hija"></div>
-        <div class="hija"></div>
-        <div class="hija"></div>
-        <div class="hija"></div>
-        <div class="hija"></div>
+    <h1 class="miestiloDescargado">Códigos de Git</h1>
+    <a href="#cuadrados">Con flex</a>
+    <a href="#init">Códigos Git</a>
+    <div class="git">
+        <ul>
+            <li>git init</li>
+            <li>git add *</li>
+            <li>git status</li>
+            <li>git commit -m "nuestro commit"</li>
+            <li>git push -u origin master</li>
+            <li>git clone</li>
+        </ul>
+    </div>
+    <div id="cuadrados">
+        <p class="miestilo">Probando otra versión</p>
+        <div id="padre">
+            <div class="hija"></div>
+            <div class="hija"></div>
+            <div class="hija"></div>
+            <div class="hija"></div>
+            <div class="hija"></div>
+        </div>
+    </div>
+
+    <div id="init">
+        <h2>git init</h2>
+        <p>Inicializa un <span>repositorio local</span> de cero. Si se usa git clone, no es necesario hacer git init.</p>
+    </div>
+
+    <div id="add">
+        <h2>git add</h2>
+        <p>Para añadir archivos al area de staging</p>
+    </div>
+
+    <div id="status">
+        <h2>git status</h2>
+        <p>Sirve para ver el estado actual en que se encuentra mi repositorio local</p>
+    </div>
+
+    <div id="commit">
+        <h2>git commit</h2>
+        <p>Guarda los cambios hechos en el area de staging, junto con una descripcion del usuario, en el repositorio local.</p>
+    </div>
+
+    <div id="push">
+        <h2>git push</h2>
+        <p>Sirve para publicar y cargar cambios locales a un repositorio remoto central.</p>
+    </div>
+
+    <div id="clone">
+        <h2>git clone</h2>
+        <p>Obtienes una copia de un repositorio existente, y tambien inicializa el repositorio en ese punto en el tiempo. No es necesario hacer git init.</p>
     </div>
 </body>
 </html>

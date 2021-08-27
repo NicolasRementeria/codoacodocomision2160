@@ -1,0 +1,41 @@
+header{
+    background-image: url("../img/churrassic_park.jpg");
+    height: 150px;
+    /*background-repeat: no-repeat;*/
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+
+
+h1{
+    background-color: rgba(255, 255, 255, 0.527);
+    height: 40px;
+    padding: 20px;
+}
+
+article{
+    background: linear-gradient(rgba(255, 0, 0, 0.356), rgba(0, 128, 0, 0.288), rgba(0, 0, 200, 0.288));
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 150px;
+}
+
+nav{
+    position: fixed;
+}
+
+nav ol li{
+    display: inline;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+article h2{
+    text-align: center;
+    
+}

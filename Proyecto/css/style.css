@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: pink;
+}
+
+.owner{
+    background-color: purple;
+    position: fixed;
+    bottom: 0px;
+    text-align: justify;
+    padding: 15px 0px;
+}
+
+.color1{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: wheat;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.color2{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.color3{
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.color4{
+    position: absolute;
+    right: 15%;
+    bottom: 0%;
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.menu{
+    position: fixed;
+    background-color: purple;
+    padding: 15px;
+}
+
+nav ol li{
+    display: inline;
+    background-color: purple;
+    margin: 5px;
+    opacity: 0.5;
+}
+
+nav ol li:hover{
+    margin: 5px;
+    display: inline;
+    opacity: 1;
+}
+
+nav ol li a{
+    text-decoration: none;
+    color: black;
+}
